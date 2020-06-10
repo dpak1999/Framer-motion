@@ -45,7 +45,7 @@ const Toppings = ({ addTopping, pizza }) => {
       animate="visible"
       exit="exit"
     >
-      <h3>Step 2: Choose Toppings</h3>
+      <h3>Step 2: Choose as much toppings as you can</h3>
       <ul>
         {toppings.map((topping) => {
           let spanClass = pizza.toppings.includes(topping) ? "active" : "";

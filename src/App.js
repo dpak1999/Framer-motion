@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Route, Switch, useLocation } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 
 import Header from "./components/Header";
 import Home from "./components/Home";
